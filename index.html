@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar | Elite Frontend Developer & UI Architect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <canvas id="particleCanvas"></canvas>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">TUSHAR<span class="cyber-dot">_</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-item">Core</a></li>
+                <li><a href="#skills" class="nav-item">Arsenal</a></li>
+                <li><a href="#projects" class="nav-item">Works</a></li>
+                <li><a href="#workflow" class="nav-item">Process</a></li>
+            </ul>
+            <a href="https://www.fiverr.com/s/8zwDQ4E" target="_blank" class="cyber-btn magnetic">
+                <span class="btn-text">HIRE ON FIVERR</span>
+                <span class="btn-glow"></span>
+            </a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="badge animate-hero">🚀 AVAILABLE FOR FREELANCE PROJECT</div>
+            <h1 class="hero-title animate-hero">Tushar</h1>
+            <h2 class="hero-subtitle animate-hero">Creative Frontend Developer & <span class="neon-text">UI Specialist</span></h2>
+            <p class="hero-description animate-hero">
+                Architecting next-generation web experiences. I merge high-end 3D visual interactivity with hyper-optimized, pixel-perfect layouts that smash conversion records.
+            </p>
+            <div class="hero-ctas animate-hero">
+                <a href="#projects" class="btn-main primary-glow magnetic">Explore Matrix</a>
+                <a href="https://www.fiverr.com/s/8zwDQ4E" target="_blank" class="btn-main secondary-glow magnetic">
+                    <i class="fab fa-fiverr"></i> Fiverr Profile
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>SCROLL TO ENTER</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="section-title gs-reveal">
+            <span class="index">01//</span>
+            <h2>Tech <span class="neon-text">Arsenal</span></h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-glass-card gs-reveal">
+                <div class="card-glow"></div>
+                <i class="fab fa-js skill-icon js-glow"></i>
+                <h3>JavaScript ES6+</h3>
+                <p>Dynamic engine architecture, complex logic processing, and raw DOM control.</p>
+            </div>
+            <div class="skill-glass-card gs-reveal">
+                <div class="card-glow"></div>
+                <i class="fas fa-cubes skill-icon gsap-glow"></i>
+                <h3>GSAP & 3D Interactive</h3>
+                <p>Creating breath-taking scroll simulations, timeline management, and matrix mechanics.</p>
+            </div>
+            <div class="skill-glass-card gs-reveal">
+                <div class="card-glow"></div>
+                <i class="fab fa-html5 skill-icon html-glow"></i>
+                <h3>Semantic Layouts</h3>
+                <p>SEO structural hierarchy mapping with fluid, unbreakeable HTML5 responsive framing.</p>
+            </div>
+            <div class="skill-glass-card gs-reveal">
+                <div class="card-glow"></div>
+                <i class="fab fa-css3-alt skill-icon css-glow"></i>
+                <h3>Advanced CSS / Tailwind</h3>
+                <p>Ultra-premium layouts using CSS Grid, custom fluid architecture, and responsive properties.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="section-title gs-reveal">
+            <span class="index">02//</span>
+            <h2>Featured <span class="neon-text">Creations</span></h2>
+        </div>
+        <div class="projects-container">
+            <div class="cyber-project-card gs-reveal">
+                <div class="project-visual">
+                    <div class="visual-overlay"></div>
+                    <i class="fas fa-coffee heavy-icon"></i>
+                </div>
+                <div class="project-details">
+                    <span class="tech-tag">PREMIUM E-COMMERCE</span>
+                    <h3>COFFEE BOX</h3>
+                    <p>A luxury dark-aesthetic coffee shop experience. Engineered with micro-interactions, flawless responsive state handling, and custom scroll triggers.</p>
+                    <div class="tech-used">
+                        <span>HTML5</span><span>CSS Variables</span><span>GSAP Engines</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="action-link magnetic"><i class="fas fa-bolt"></i> Live Simulation</a>
+                        <a href="#" class="action-link magnetic"><i class="fab fa-github"></i> Source Grid</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="workflow" class="workflow-section">
+        <div class="section-title gs-reveal">
+            <span class="index">03//</span>
+            <h2>The <span class="neon-text">Workflow</span></h2>
+        </div>
+        <div class="workflow-tree">
+            <div class="tree-node gs-reveal">
+                <div class="node-number">01</div>
+                <div class="node-info">
+                    <h3>Deep Architecture Strategy</h3>
+                    <p>Mapping out UI logic, UX flows, and animation timelines before building layout foundations.</p>
+                </div>
+            </div>
+            <div class="tree-node gs-reveal">
+                <div class="node-number">02</div>
+                <div class="node-info">
+                    <h3>High-Fidelity Engineering</h3>
+                    <p>Writing highly componentized, semantic markup and bleeding-edge CSS variables for maximum speed optimization.</p>
+                </div>
+            </div>
+            <div class="tree-node gs-reveal">
+                <div class="node-number">03</div>
+                <div class="node-info">
+                    <h3>Stress Test & Handoff</h3>
+                    <p>Cross-browser evaluation, asset compression, and direct lightning-fast server injection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="cyber-footer">
+        <div class="footer-content gs-reveal">
+            <h2>READY TO UPGRADE YOUR DIGITAL PRESENCE?</h2>
+            <p>Let's build an elite web infrastructure tailored specifically to crush your business goals.</p>
+            <a href="https://www.fiverr.com/s/8zwDQ4E" target="_blank" class="ultimate-cta magnetic">
+                INITIATE PROJECT ON FIVERR <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tushar. All systems operational.</p>
+            <div class="social-nodes">
+                <a href="#" class="magnetic"><i class="fab fa-github"></i></a>
+                <a href="https://www.fiverr.com/s/8zwDQ4E" class="magnetic" target="_blank"><i class="fab fa-fiverr"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
